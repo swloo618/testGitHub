@@ -22,6 +22,7 @@ namespace inno_DebtorMatch_Reminder
             this.WindowState = FormWindowState.Minimized;
             sAlertday = ConfigurationManager.AppSettings["alertday"].ToString();
             salertduration = ConfigurationManager.AppSettings["alertduration"].ToString();
+            //test
         }
 
         private void Main_Load(object sender, EventArgs e)
